@@ -15,7 +15,7 @@ vim.o.wrap = true
 vim.o.mouse = "niv"
 vim.o.ignorecase = true
 vim.o.cursorline = true
-vim.o.splitright = true
+--vim.o.splitright = true
 
 -- Plugins
 require('packer-plugins')
