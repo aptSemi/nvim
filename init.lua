@@ -2,11 +2,11 @@
 vim.g.mapleader = " "
 
 -- Options
-vim.o.termguicolors = true
-vim.o.relativenumber = true
-vim.o.tabstop = 4
-vim.o.softtabstop = 4
-vim.o.expandtab = true
+--vim.o.termguicolors = true
+--vim.o.relativenumber = true
+--vim.o.tabstop = 4
+--vim.o.softtabstop = 4
+--vim.o.expandtab = true
 vim.o.incsearch = true
 vim.o.hidden = true
 vim.o.smartindent = true
