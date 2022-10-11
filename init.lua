@@ -20,3 +20,4 @@ vim.o.splitright = true
 -- Plugins
 require('packer-plugins')
 require('lualine')
+require('Comment').setup()

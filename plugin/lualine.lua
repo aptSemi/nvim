@@ -5,4 +5,4 @@ require('lualine').get_config()
 
 
 
-options = { theme = 'gruvbox-material' }
+options = { theme = 'gruvbox-dark' }
