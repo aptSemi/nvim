@@ -6,4 +6,5 @@ vim.g.mapleader = " "
 require('packer-plugins')  -- lua/packer-plugins.lua
 require('lualine')         -- plugin/lualine.lua
 require('Comment').setup() 
-require('settings')        -- lua/settings.lua
+require('options')        -- lua/options.lua
+
