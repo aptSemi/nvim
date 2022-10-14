@@ -1,16 +1,18 @@
-  -- Packer Plugin Manager
+  -- Plugin Manager
 return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
-  --Other plugins
+  -- file tree
   use 'preservim/nerdtree'
 
+  -- status line
   use {
     'nvim-lualine/lualine.nvim',
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
 
+  -- line commenting
   use {
     'numToStr/Comment.nvim',
     config = function()
@@ -18,6 +20,7 @@ return require('packer').startup(function(use)
     end
   } 
 
+  -- file tabs
   use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
 
 
@@ -25,7 +28,6 @@ return require('packer').startup(function(use)
   use { "ellisonleao/gruvbox.nvim" }
   use {"savq/melange" }
   
-
 require('onedark').setup {
     style = 'warm'
 }

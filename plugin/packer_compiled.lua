@@ -80,6 +80,11 @@ _G.packer_plugins = {
     path = "/home/semi/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "/home/semi/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
+  },
   ["gruvbox.nvim"] = {
     loaded = true,
     path = "/home/semi/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
