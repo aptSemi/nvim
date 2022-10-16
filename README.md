@@ -11,7 +11,7 @@ https://github.com/wbthomason/packer.nvim/blob/master/lua/packer.lua
 and follow the installation instructions! (Don't worry, it's super easy)
 Once complete, open nvim and run :PackerSync and it will install and configure everything else.
 
-Side NOTE:  If you receive any errors related to "onedark" then the OneDark theme is not properly loading and will need to be deleted from the lua/packer-plugins/lua file
+Side NOTE:  If you receive any errors related to "onedark" then the OneDark theme is not properly loading and will need to be deleted from the lua/packer-plugins.lua file
 
 This is the block that should be deleted:
 
