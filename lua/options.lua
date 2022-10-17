@@ -8,6 +8,7 @@ vim.opt.backup = false                      -- creates backup file (NO!)
 vim.opt.swapfile = false                    -- create swap file (NO!)
 vim.opt.updatetime = 50                     -- better update time (default 4000 ms = 4 sec)
 vim.opt.wildmenu = true                     -- tab complete on commandline
+vim.opt.inccommand = "nosplit"              -- preview %s commands live as they're being typed
 vim.opt.belloff = "all"                     -- NO BELLS!!!
 vim.opt.errorbells = false                  -- no annoying bells!
 --vim.opt.undofile = true                     -- undo file?  Yes!  (for future builds; currently not in use)
@@ -24,12 +25,16 @@ vim.opt.fileencoding = "utf-8"              -- the encoding written to file
 vim.opt.smartcase = true                    -- no ignore case when pattern has upper-case
 vim.opt.ignorecase = true                   -- ignore case in search patterns
 vim.opt.incsearch = true                    -- highlight match while typing search pattern
+--vim.opt.hlsearch = true                     -- highlight matching text
 
 -- Indentation
 vim.opt.tabstop = 4                         -- insert 4 (or 2) spaces for a tab
 vim.opt.softtabstop = 4                     -- number of spaces TAB uses while editing
+vim.opt.smarttab = true                     -- <TAB> at start of line behaves as expected
 vim.opt.expandtab = true                    -- converts tab to spaces
 vim.opt.smartindent = true                  -- make indenting smarter again
+vim.opt.autoindent = true                   -- continue indentation to new line
+--vim.opt.shiftwidth = 4                      -- >>, << shift line by 4 spaces
 
 -- Colors
 vim.opt.termguicolors = true                -- set term gui colors (most terminals support this)
