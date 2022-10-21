@@ -28,14 +28,4 @@ return require('packer').startup(function(use)
   use { "ellisonleao/gruvbox.nvim" }
   use {"savq/melange" }
   
-require('onedark').setup {
-    style = 'warm'
-}
-  use {'navarasu/onedark.nvim' }
-
-
-
-
-
-
 end)
