@@ -6,7 +6,7 @@ A Note on Installation:
 
 When cloning this repo, Packer plugin manager is NOT bootstrapped, thus will not auto install upon cloning.  You will need to go to the following github page: 
 
-https://github.com/wbthomason/packer.nvim/blob/master/lua/packer.lua
+https://github.com/wbthomason/packer.nvim
 
 and follow the installation instructions! (Don't worry, it's super easy)
 Once complete, open nvim and run :PackerSync and it will install and configure everything else.
