@@ -12,7 +12,7 @@ vim.opt.wildmenu = true                     -- tab complete on commandline
 vim.opt.inccommand = "nosplit"              -- preview %s commands live as they're being typed
 vim.opt.belloff = "all"                     -- NO BELLS!!!
 vim.opt.errorbells = false                  -- no annoying bells!
-vim.opt.clipboard - "unnamedplus"           -- allow nvim to access system clipboard
+vim.opt.clipboard = "unnamedplus"           -- allow nvim to access system clipboard
 --vim.opt.undofile = true                     -- undo file?  Yes!  (for future builds; currently not in use)
 
 -- Look and Feel
