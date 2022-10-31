@@ -56,7 +56,9 @@ use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-de
 
 -- Colorschemes
 use { "ellisonleao/gruvbox.nvim" }
-  
+use "savq/melange" 
+use "lunarvim/horizon.nvim"
+
 -- Automatically set up your configuration after cloning packer.nvim
 -- Put this at the end after all plugins
   if packer_bootstrap then

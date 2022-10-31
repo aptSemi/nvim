@@ -90,6 +90,11 @@ _G.packer_plugins = {
     path = "/home/semi/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
+  ["horizon.nvim"] = {
+    loaded = true,
+    path = "/home/semi/.local/share/nvim/site/pack/packer/start/horizon.nvim",
+    url = "https://github.com/lunarvim/horizon.nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/semi/.local/share/nvim/site/pack/packer/start/lualine.nvim",
