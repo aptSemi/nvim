@@ -35,13 +35,13 @@ o.incsearch = true                    -- highlight match while typing search pat
 --o.hlsearch = true                     -- highlight matching text
 
 -- Indentation
-o.tabstop = 4                         -- insert 4 (or 2) spaces for a tab
-o.softtabstop = 4                     -- number of spaces TAB uses while editing
+o.tabstop = 2                         -- insert 4 (or 2) spaces for a tab
+o.softtabstop = 2                     -- number of spaces TAB uses while editing
 o.smarttab = true                     -- <TAB> at start of line behaves as expected
 o.expandtab = true                    -- converts tab to spaces
 o.smartindent = true                  -- make indenting smarter again
 o.autoindent = true                   -- continue indentation to new line
---o.shiftwidth = 4                      -- >>, << shift line by 4 spaces
+o.shiftwidth = 2                      -- >>, << shift line by 4 spaces
 
 -- Colors
 o.termguicolors = true                -- set term gui colors (most terminals support this)
