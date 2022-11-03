@@ -21,45 +21,18 @@ vim.cmd([[
   augroup end
 ]])
 
-
--- plugin Manager (packer can manage itself)
 return require('packer').startup(function(use)
-use 'wbthomason/packer.nvim'
 
--- icons
-use 'nvim-tree/nvim-web-devicons'
-
--- file Tree
-use {
-  'nvim-tree/nvim-tree.lua',
-  requires = {
-    'nvim-tree/nvim-web-devicons', -- optional, for file icons
-  },
-  tag = 'nightly' -- optional, updated every week. (see issue #1193)
-}
-
--- status line
-use {
-  'nvim-lualine/lualine.nvim',
-  requires = { 'kyazdani42/nvim-web-devicons', opt = true }
-}
-
--- line commenting
-use {
-  'numToStr/Comment.nvim',
-  config = function()
-      require('Comment').setup()
-  end
-} 
-
--- plenary = useful lua functions used by lots of plugins
-use 'nvim-lua/plenary.nvim'
-
--- treesitter
-use 'nvim-treesitter/nvim-treesitter'
-
--- file tabs (kinda like tabs)
-use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
+-- plugins
+use 'wbthomason/packer.nvim'                    -- plugin manager (packer can manage itself!)
+use 'nvim-tree/nvim-web-devicons'               -- icons
+use 'nvim-tree/nvim-tree.lua'                   -- file tree
+use 'nvim-lua/plenary.nvim'                     -- support used by lots of plugins
+use 'nvim-treesitter/nvim-treesitter'           -- highlights
+use 'nvim-lualine/lualine.nvim'                 -- status line
+use 'numToStr/Comment.nvim'                     -- easy commenting
+use 'akinsho/bufferline.nvim'                   -- buffers (sorta like tabs, but not)
+use 'nvim-telescope/telescope.nvim'             -- fuzzy finder
 
 -- colorschemes
 use "ellisonleao/gruvbox.nvim"
