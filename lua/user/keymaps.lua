@@ -71,3 +71,4 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 
 -- plugin maps
 keymap("n", "<leader>`", ":NvimTreeToggle<cr>", opts)
+keymap("n", "<leader>t", ":ToggleTerm<cr>", opts)
