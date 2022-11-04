@@ -33,6 +33,7 @@ use 'nvim-lualine/lualine.nvim'                 -- status line
 use 'numToStr/Comment.nvim'                     -- easy commenting
 use 'akinsho/bufferline.nvim'                   -- buffers (sorta like tabs, but not)
 use 'nvim-telescope/telescope.nvim'             -- fuzzy finder
+use 'lewis6991/gitsigns.nvim'                   -- show git changes within file/buffer
 
 -- colorschemes
 use "ellisonleao/gruvbox.nvim"
