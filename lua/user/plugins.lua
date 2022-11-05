@@ -28,13 +28,15 @@ use 'wbthomason/packer.nvim'                    -- plugin manager (packer can ma
 use 'nvim-tree/nvim-web-devicons'               -- icons
 use 'nvim-tree/nvim-tree.lua'                   -- file tree
 use 'nvim-lua/plenary.nvim'                     -- support used by lots of plugins
-use 'nvim-treesitter/nvim-treesitter'           -- highlights
 use 'nvim-lualine/lualine.nvim'                 -- status line
 use 'numToStr/Comment.nvim'                     -- easy commenting
 use 'akinsho/bufferline.nvim'                   -- buffers (sorta like tabs, but not)
 use 'nvim-telescope/telescope.nvim'             -- fuzzy finder
 use 'lewis6991/gitsigns.nvim'                   -- show git changes within file/buffer
 use 'akinsho/toggleterm.nvim'                   -- in nvim terminal
+use("nvim-treesitter/nvim-treesitter", {        -- highlights
+        run = ":TSUpdate"
+    })
 
 -- colorschemes
 use "ellisonleao/gruvbox.nvim"
