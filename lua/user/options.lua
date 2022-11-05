@@ -1,4 +1,3 @@
-
 -- Variables
 o = vim.opt
 

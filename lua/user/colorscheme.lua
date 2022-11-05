@@ -1,4 +1,3 @@
-
 -- Colorschemes
 vim.cmd[[colorscheme gruvbox]]
 --vim.cmd[[colorscheme melange]]
