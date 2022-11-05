@@ -2,9 +2,6 @@
 -- Variables
 o = vim.opt
 
--- Leader Key
-vim.g.mapleader = " "
-
 -- Behavior
 o.hidden = true                       -- do not unload buffer when abandoned
 o.splitright = true                   -- force vertical splits to the right
