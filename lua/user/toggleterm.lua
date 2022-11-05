@@ -7,9 +7,10 @@ toggleterm.setup({
 	size = 80,
 	open_mapping = [[<c-t>]],
 	hide_numbers = true,
+  autochdir = false, -- when neovim changes it current directory the terminal will change it's own when next it's opened
 	shade_filetypes = {},
 	shade_terminals = true,
-	shading_factor = 2,
+	shading_factor = 1,
 	start_in_insert = true,
 	insert_mappings = true,
 	persist_size = true,
