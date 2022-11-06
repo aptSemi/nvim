@@ -3,26 +3,16 @@ if not status_ok then
 	return
 end
 
-toggleterm.setup({
-	size = 80,
-	open_mapping = [[<c-t>]],
-	hide_numbers = true,
-  -- autochdir = false, -- when neovim changes it current directory the terminal will change it's own when next it's opened
-	shade_filetypes = {},
-	shade_terminals = true,
-	shading_factor = 1,
-	start_in_insert = true,
-	insert_mappings = true,
-	persist_size = true,
-	direction = "vertical",
-	close_on_exit = true,
-	shell = vim.o.shell,
-	float_opts = {
-		border = "curved",
-		winblend = 0,
-		highlights = {
-			border = "Normal",
-			background = "Normal",
-		},
-	},
-})
+toggleterm.setup{
+  size = 80,
+  open_mapping = [[<c-t>]],
+  hide_numbers = true,
+  autochdir = true,           -- when nvim changes current dir, terminal will change it's dir when next opened
+  shade_filetypes = {},
+  start_in_insert = true,
+  insert_mappings = true,
+  persist_size = true,
+  direction = 'vertical',
+  close_on_exit = true,
+  shell = vim.o.shell,
+}
