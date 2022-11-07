@@ -5,10 +5,10 @@ require('user.keymaps')             -- /lua/user/keymaps.lua
 require('user.colorscheme')         -- /lua/user/colorscheme.lua (change colorschemes here)
 require('nvim-tree').setup()        -- default setup (change toggle keymap in /lua/user/keymaps.lua)
 require('Comment').setup()          -- default (default is good)
+require('bufferline').setup()       -- default
 require('user.lualine')             -- /lua/user/lualine.lua
 require('user.telescope')           -- /lua/user/telescope.lua
-require('user.toggleterm')--.setup()       -- remove user. and uncomment setup section to get default settings
-require('bufferline').setup()       -- default
+require('user.toggleterm')          -- /lua/user/toggleterm.lua
 require('user.treesitter')          -- /lua/user/treesitter.lua
-require('user.cmp')                 -- /lua/user/cmp.lua (Not currently working properly)
--- require('gitsigns').setup()         -- CAUSING ERRORS?? default
+require('user.cmp')                 -- /lua/user/cmp.lua
+-- require('gitsigns').setup()         -- CAUSING ERRORS?? default config
