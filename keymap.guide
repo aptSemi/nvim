@@ -1,5 +1,10 @@
 Plugin Keymap Guide
 
+--- cmp ---
+
+ctrl+j  - move down to select completion option
+ctrl+h  - move up to select completion option
+
 --- Comment ---
 
 NORMAL mode
