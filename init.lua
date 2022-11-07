@@ -10,4 +10,5 @@ require('user.telescope')           -- /lua/user/telescope.lua
 require('user.toggleterm')--.setup()       -- remove user. and uncomment setup section to get default settings
 require('bufferline').setup()       -- default
 require('user.treesitter')          -- /lua/user/treesitter.lua
+require('user.cmp')                 -- /lua/user/cmp.lua (Not currently working properly)
 -- require('gitsigns').setup()         -- CAUSING ERRORS?? default
