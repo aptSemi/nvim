@@ -1,6 +1,6 @@
 local fn = vim.fn
 
--- automatically install Packer plugin manager
+-- automatically install Packer plugin manager --
 local ensure_packer = function()
   local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
   if fn.empty(fn.glob(install_path)) > 0 then
@@ -13,7 +13,7 @@ end
 
 local packer_bootstrap = ensure_packer()
 
--- autocommand that reloads neovim whenever you save the plugins.lua file
+-- autocommand that reloads neovim whenever you save the plugins.lua file --
 vim.cmd([[
   augroup packer_user_config
     autocmd!
@@ -23,7 +23,7 @@ vim.cmd([[
 
 return require('packer').startup(function(use)
 
--- plugins
+-- plugins --
 use 'wbthomason/packer.nvim'                    -- plugin manager (packer can manage itself!)
 use 'nvim-tree/nvim-web-devicons'               -- icons
 use 'nvim-tree/nvim-tree.lua'                   -- file tree
@@ -38,13 +38,21 @@ use("nvim-treesitter/nvim-treesitter", {        -- highlights
         run = ":TSUpdate"
     })
 
--- colorschemes
+-- completion --
+use 'hrsh7th/nvim-cmp'                          -- completion
+use 'hrsh7th/cmp-buffer'                        -- buffer completions
+use 'hrsh7th/cmp-path'                          -- path completions
+
+-- snippets --
+use({"L3MON4D3/LuaSnip", tag = "v<CurrentMajor>.*"})
+
+-- colorschemes --
 use "ellisonleao/gruvbox.nvim"
 use "savq/melange" 
 use "lunarvim/horizon.nvim"
 
--- automatically set up your configuration after cloning packer.nvim
--- put this at the end after all plugins
+-- automatically set up your configuration after cloning packer.nvim --
+-- put this at the end after all plugins --
   if packer_bootstrap then
     require('packer').sync()
   end
