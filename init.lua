@@ -12,3 +12,4 @@ require('user.toggleterm')          -- /lua/user/toggleterm.lua
 require('user.treesitter')          -- /lua/user/treesitter.lua
 require('user.cmp')                 -- /lua/user/cmp.lua
 -- require('gitsigns').setup()         -- CAUSING ERRORS?? default config
+-- require('gitsigns').setup()         -- CAUSING ERRORS?? default config
