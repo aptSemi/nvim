@@ -15,5 +15,5 @@ THIS IS A WORK IN PROGRESS!  Will be updated once I get it to where I want it
 
 That should be all that is required!  If you get a spam of errors upon first running :PackerSync, you may have to comment out all lines in init.lua file and sync each plugin one by one. This is very rare, but has been known to happen whenever breaking changes to a plugin have been introduced
 
-**NOTE: If running in to treesitter compile issues on FEDORA 36, run the following command in terminal:
+**NOTE: If running in to treesitter compile issues on FEDORA, run the following command in terminal:
 sudo dnf install gcc-c++
