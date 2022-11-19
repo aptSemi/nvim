@@ -1,8 +1,7 @@
 # nvim
 
-Simple neovim configuration
-
-THIS IS A WORK IN PROGRESS!  Will be updated once I get it to where I want it
+Simple neovim configuration for anyone wanting to try out neovim, with common plugins installed.  However, it is recommended that you learn to set up neovim on your own, using lua, so you can customize it to your actual needs, and to learn how it actually works!
+ 
 
 1. clone repo in to your ~/.config directory
 
