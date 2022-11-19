@@ -4,7 +4,7 @@ if not status_ok then
 end
 
 toggleterm.setup{
-  size = 80,
+  size = 90,
   open_mapping = [[<c-t>]],
   hide_numbers = true,
   autochdir = true,           -- when nvim changes current dir, terminal will change it's dir when next opened
