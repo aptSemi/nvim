@@ -43,7 +43,6 @@ use("nvim-treesitter/nvim-treesitter", {        -- highlights
 -- use 'williamboman/mason-lspconfig.nvim'
 -- use 'neovim/nvim-lspconfig'                     -- language servers
 
-
 -- completion --
 use 'hrsh7th/nvim-cmp'                          -- completion
 use 'hrsh7th/cmp-buffer'                        -- buffer completions
