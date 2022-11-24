@@ -16,3 +16,6 @@ That should be all that is required!  If you get a spam of errors upon first run
 
 **NOTE: If running in to treesitter compile issues on FEDORA, run the following command in terminal:
 sudo dnf install gcc-c++
+
+-- Links to Individual plugin documentation --
+COMING SOON!
