@@ -34,6 +34,7 @@ use 'akinsho/bufferline.nvim'                   -- buffers (sorta like tabs, but
 use 'nvim-telescope/telescope.nvim'             -- fuzzy finder
 use 'lewis6991/gitsigns.nvim'                   -- show git changes within file/buffer
 use 'akinsho/toggleterm.nvim'                   -- in nvim terminal
+use 'windwp/nvim-autopairs'                          -- auto close brackets, etc
 use("nvim-treesitter/nvim-treesitter", {        -- highlights
         run = ":TSUpdate"
     })
