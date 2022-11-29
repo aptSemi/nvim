@@ -10,7 +10,8 @@ https://github.com/neovim/neovim/wiki/Installing-Neovim
 2. clone repo in to your ~/.config directory
 
 3. open neovim instance (nvim .)
-  **note** Packer (the plugin manager) is bootstrapped and should automatically install the first time you open neovim after cloning the repository.
+ 
+**NOTE** Packer (the plugin manager) is bootstrapped and should automatically install the first time you open neovim after cloning the repository.
 
 4. run :PackerSync to install all included plugins
 
@@ -18,7 +19,7 @@ https://github.com/neovim/neovim/wiki/Installing-Neovim
 
 6. Close all instances of neovim and reopen
 
-**note** If, after installing and updating, icons on nvim-tree do not look correct, it may be because you do not have a Nerd Font installed.  If not, follow either of the two links to install a Nerd Font of your choice:
+**NOTE** If, after installing and updating, icons on nvim-tree do not look correct, it may be because you do not have a Nerd Font installed.  If not, follow either of the two links to install a Nerd Font of your choice:
 
 https://www.nerdfonts.com/
 https://github.com/ryanoasis/nerd-fonts (if using this link, go to "patched fonts" folder to find your font of choice)
@@ -30,6 +31,7 @@ sudo dnf install gcc-c++
 
 
 -- Links to plugin documentation --
+
 packer plugin manager - https://github.com/wbthomason/packer.nvim-blankline
 nvim-tree - https://github.com/nvim-tree/nvim-tree.lua 
 nvim-web-devicons - https://github.com/nvim-tree/nvim-web-devicons
