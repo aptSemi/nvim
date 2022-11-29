@@ -1,11 +1,19 @@
 Plugin Keymap Guide
 
+leader = space
+
+--- toggleterm ---
+CTRL+t  - toggle terminal
+
+--- nvim-tree ---
+leader+` 
+
 --- cmp ---
 
 ctrl+j  - move down to select completion option
 ctrl+h  - move up to select completion option
 
---- Comment ---
+--- comment ---
 
 NORMAL mode
 `gcc` - Toggles the current line using linewise comment
