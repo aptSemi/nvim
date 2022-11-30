@@ -54,10 +54,16 @@ use({"L3MON4D3/LuaSnip", tag = "v<CurrentMajor>.*"})
 -- use 'williamboman/mason-lspconfig.nvim'
 
 -- colorschemes --
-use "ellisonleao/gruvbox.nvim"
-use "savq/melange" 
-use "lunarvim/horizon.nvim"
+use 'ellisonleao/gruvbox.nvim'
+use 'savq/melange' 
+use 'lunarvim/horizon.nvim'
 use { "catppuccin/nvim", as = "catppuccin" }
+use 'EdenEast/nightfox.nvim'
+use 'jacoborus/tender.vim'
+use 'folke/tokyonight.nvim'
+use 'sainnhe/everforest'
+use 'sainnhe/edge'
+use 'sainnhe/sonokai'
 
 -- automatically set up your configuration after cloning packer.nvim --
 -- put this at the end after all plugins --
