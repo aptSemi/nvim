@@ -40,11 +40,6 @@ use("nvim-treesitter/nvim-treesitter", {        -- highlights
         run = ":TSUpdate"
     })
 
--- lsp --
--- use 'williamboman/mason.nvim'
--- use 'williamboman/mason-lspconfig.nvim'
--- use 'neovim/nvim-lspconfig'                     -- language servers
-
 -- completion --
 use 'hrsh7th/nvim-cmp'                          -- completion
 use 'hrsh7th/cmp-buffer'                        -- buffer completions
@@ -52,6 +47,11 @@ use 'hrsh7th/cmp-path'                          -- path completions
 
 -- snippets --
 use({"L3MON4D3/LuaSnip", tag = "v<CurrentMajor>.*"})
+
+-- lsp --
+-- use 'neovim/nvim-lspconfig'                     -- language servers
+-- use 'williamboman/mason.nvim'
+-- use 'williamboman/mason-lspconfig.nvim'
 
 -- colorschemes --
 use "ellisonleao/gruvbox.nvim"
