@@ -7,5 +7,7 @@
 -- vim.cmd[[colorscheme tender]]
 -- vim.cmd[[colorscheme tokyonight]]
 -- vim.cmd[[colorscheme everforest]]
-vim.cmd[[colorscheme edge]]
+-- vim.cmd[[colorscheme edge]]
 -- vim.cmd[[colorscheme sonokai]]
+-- vim.cmd[[colorscheme oak]]
+vim.cmd[[colorscheme pinkmare]]
