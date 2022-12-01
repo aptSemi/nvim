@@ -59,7 +59,6 @@ use 'savq/melange'
 use 'lunarvim/horizon.nvim'
 use { "catppuccin/nvim", as = "catppuccin" }
 use 'EdenEast/nightfox.nvim'
-use 'jacoborus/tender.vim'
 use 'folke/tokyonight.nvim'
 use 'sainnhe/everforest'
 use 'sainnhe/edge'
