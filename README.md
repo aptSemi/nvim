@@ -1,7 +1,5 @@
 # nvim
 
-Need to figure out how to push to both github and gitlab
-
 Simple neovim configuration for anyone wanting to try out neovim, with common plugins installed.  However, it is recommended that you learn to set up neovim on your own, using lua, so you can customize it to your actual needs, and to learn how it actually works!
  
 1. Make sure you have latest Neovim installed. (Use the link below as using your respective package manager may give you a grossly outdated version)
