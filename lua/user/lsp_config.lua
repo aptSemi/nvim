@@ -17,8 +17,22 @@ require('lspconfig').sumneko_lua.setup {
   on_attach = on_attach
 }
 
-require('lspconfig').bashls.setup {}
-require('lspconfig').dockerls.setup {}
-require('lspconfig').jsonls.setup {}
-require('lspconfig').terraformls.setup {}
-require('lspconfig').yamlls.setup {}
+require('lspconfig').bashls.setup {
+  on_attach = on_attach
+}
+
+require('lspconfig').dockerls.setup {
+  on_attach = on_attach
+}
+
+require('lspconfig').jsonls.setup {
+  on_attach = on_attach
+}
+
+require('lspconfig').terraformls.setup {
+  on_attach = on_attach
+}
+
+require('lspconfig').yamlls.setup {
+  on_attach = on_attach
+}
