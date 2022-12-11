@@ -49,9 +49,11 @@ use 'hrsh7th/cmp-path'                          -- path completions
 use({"L3MON4D3/LuaSnip", tag = "v<CurrentMajor>.*"})
 
 -- lsp --
--- use 'neovim/nvim-lspconfig'                     -- language servers
--- use 'williamboman/mason.nvim'
--- use 'williamboman/mason-lspconfig.nvim'
+use {
+  'neovim/nvim-lspconfig',                     -- language servers
+  'williamboman/mason.nvim',
+  'williamboman/mason-lspconfig.nvim',
+}
 
 -- colorschemes --
 use 'ellisonleao/gruvbox.nvim'
