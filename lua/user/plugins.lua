@@ -47,6 +47,7 @@ use 'lewis6991/gitsigns.nvim'                   -- show git changes within file/
 use 'akinsho/toggleterm.nvim'                   -- in nvim terminal
 use 'windwp/nvim-autopairs'                     -- auto close brackets, etc
 use 'lukas-reineke/indent-blankline.nvim'       -- indent-blankline to make things look cool
+use 'tpope/vim-fugitive'                        -- awesome git commands within neovim
 use("nvim-treesitter/nvim-treesitter", {        -- highlights
         run = ":TSUpdate"
     })
