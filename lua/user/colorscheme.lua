@@ -4,7 +4,6 @@
 -- vim.cmd[[colorscheme horizon]]
 -- vim.cmd[[colorscheme catppuccin]]
 -- vim.cmd[[colorscheme nightfox]]
--- vim.cmd[[colorscheme tokyonight]]
 -- vim.cmd[[colorscheme everforest]]
 -- vim.cmd[[colorscheme edge]]
 -- vim.cmd[[colorscheme sonokai]]
