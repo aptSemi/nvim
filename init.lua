@@ -10,7 +10,7 @@ require('user.lualine')             -- /lua/user/lualine.lua
 require('user.telescope')           -- /lua/user/telescope.lua
 require('user.toggleterm')          -- /lua/user/toggleterm.lua
 require('user.treesitter')          -- /lua/user/treesitter.lua
-require('user.cmp')                 -- /lua/user/cmp.lua
+-- require('user.cmp')                 -- /lua/user/cmp.lua
 require('user.autopairs')           -- /lua/user/autopairs.lua
 require('user.indentline')          -- /lua/user/indentline.lua
 require('gitsigns').setup()         -- default config

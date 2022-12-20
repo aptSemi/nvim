@@ -23,12 +23,13 @@ o.wrap = true                         -- line wraps instead of going off screen
 o.linebreak = true                    -- companion to 'wrap", do not split words
 o.cursorline = true                   -- highlight the current line
 o.fileencoding = "utf-8"              -- the encoding written to file
+o.scrolloff = 8                       -- never less than 8 lines from bottom (unless at EOF)
 
 -- Searching
 o.smartcase = true                    -- no ignore case when pattern has upper-case
 o.ignorecase = true                   -- ignore case in search patterns
 o.incsearch = true                    -- highlight match while typing search pattern
---o.hlsearch = true                     -- highlight matching text
+o.hlsearch = false                     -- highlight matching text
 
 -- Indentation
 o.shiftwidth = 2                      -- >>, << shift line by 4 spaces
