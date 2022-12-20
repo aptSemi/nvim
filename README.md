@@ -45,8 +45,5 @@ nvim-autopairs - https://github.com/windwp/nvim-autopairs
 nvim-treesitter - https://github.com/nvim-treesitter/nvim-treesitter
 indent-blankline - https://github.com/lukas-reineke/indent-blankline.nvim-blankline
 gitsigns - https://github.com/lewis6991/gitsigns.nvim
-nvim-cmp - https://github.com/hrsh7th/nvim-cmp
-cmp-buffer - https://github.com/hrsh7th/cmp-buffer
-cmp-path - https://github.com/hrsh7th/cmp-path
-luasnip - https://github.com/L3MON4D3/LuaSnip
-
+vim-fugitive - https://github.com/tpope/vim-fugitive
+lsp-zero - https://github.com/VonHeikemen/lsp-zero.nvim
