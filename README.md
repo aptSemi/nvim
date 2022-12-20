@@ -26,6 +26,11 @@ https://github.com/ryanoasis/nerd-fonts (if using this link, go to "patched font
 
 That should be all that is required!  If you get a spam of errors upon first running :PackerSync, you may have to comment out all lines in init.lua file and sync each plugin one by one. This is very rare, but has been known to happen whenever breaking changes to a plugin have been introduced
 
+** Newly added - lsp-zero"
+lsp-zero is an all-in-one language server package. It comes with all necessary plugins for language servers, completion, etc.
+any time you open a new file type that may use a language server, you will get a prompt asking if you'd like to install an associated
+language server!
+
 **NOTE** If running in to treesitter compile issues on FEDORA, run the following command in terminal:
 sudo dnf install gcc-c++
 
