@@ -51,19 +51,41 @@ use("nvim-treesitter/nvim-treesitter", {        -- highlights
         run = ":TSUpdate"
     })
 
--- completion --
-use 'hrsh7th/nvim-cmp'                          -- completion
-use 'hrsh7th/cmp-buffer'                        -- buffer completions
-use 'hrsh7th/cmp-path'                          -- path completions
+-- -- autocompletion --
+-- use 'hrsh7th/nvim-cmp'                          -- completion
+-- use 'hrsh7th/cmp-buffer'                        -- buffer completions
+-- use 'hrsh7th/cmp-path'                          -- path completions
+--
+-- -- snippets --
+-- use 'L3MON4D3/LuaSnip'
+--
+-- -- lsp --
+-- use {
+--   'neovim/nvim-lspconfig',                     -- language servers
+--   'williamboman/mason.nvim',
+--   'williamboman/mason-lspconfig.nvim',
+-- }
 
--- snippets --
-use 'L3MON4D3/LuaSnip'
+  use {
+  'VonHeikemen/lsp-zero.nvim',
+  requires = {
+    -- LSP Support
+    {'neovim/nvim-lspconfig'},
+    {'williamboman/mason.nvim'},
+    {'williamboman/mason-lspconfig.nvim'},
 
--- lsp --
-use {
-  'neovim/nvim-lspconfig',                     -- language servers
-  'williamboman/mason.nvim',
-  'williamboman/mason-lspconfig.nvim',
+    -- Autocompletion
+    {'hrsh7th/nvim-cmp'},
+    {'hrsh7th/cmp-buffer'},
+    {'hrsh7th/cmp-path'},
+    {'saadparwaiz1/cmp_luasnip'},
+    {'hrsh7th/cmp-nvim-lsp'},
+    {'hrsh7th/cmp-nvim-lua'},
+
+    -- Snippets
+    {'L3MON4D3/LuaSnip'},
+    {'rafamadriz/friendly-snippets'},
+  }
 }
 
 -- colorschemes --
@@ -72,7 +94,6 @@ use 'savq/melange'
 use 'lunarvim/horizon.nvim'
 use { "catppuccin/nvim", as = "catppuccin" }
 use 'EdenEast/nightfox.nvim'
-use 'folke/tokyonight.nvim'
 use 'sainnhe/everforest'
 use 'sainnhe/edge'
 use 'sainnhe/sonokai'
