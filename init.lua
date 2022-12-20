@@ -14,4 +14,4 @@ require('user.cmp')                 -- /lua/user/cmp.lua
 require('user.autopairs')           -- /lua/user/autopairs.lua
 require('user.indentline')          -- /lua/user/indentline.lua
 require('gitsigns').setup()         -- default config
-require('user.lsp_config')          -- /lua/user/lsp_config.lua
+require('user.lsp')                 -- /lua/user/lsp_config.lua
