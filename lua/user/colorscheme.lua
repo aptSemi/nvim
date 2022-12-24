@@ -1,5 +1,5 @@
 -- Colorschemes
--- vim.cmd[[colorscheme gruvbox]]
+vim.cmd[[colorscheme gruvbox]]
 -- vim.cmd[[colorscheme melange]]
 -- vim.cmd[[colorscheme horizon]]
 -- vim.cmd[[colorscheme catppuccin]]
@@ -8,5 +8,6 @@
 -- vim.cmd[[colorscheme edge]]
 -- vim.cmd[[colorscheme sonokai]]
 -- vim.cmd[[colorscheme oak]]
-vim.cmd[[colorscheme pinkmare]]
+-- vim.cmd[[colorscheme pinkmare]]
 -- vim.cmd[[colorscheme onedark]]
+-- vim.cmd[[colorscheme aquarium]]
