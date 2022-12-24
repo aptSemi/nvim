@@ -85,7 +85,6 @@ use 'sainnhe/edge'
 use 'sainnhe/sonokai'
 use 'vigoux/oak'
 use 'Matsuuu/pinkmare'
-use 'frenzyexists/aquarium-vim'
 use 'navarasu/onedark.nvim'
 
 -- automatically set up your configuration after cloning packer.nvim

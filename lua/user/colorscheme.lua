@@ -8,6 +8,5 @@
 -- vim.cmd[[colorscheme edge]]
 -- vim.cmd[[colorscheme sonokai]]
 -- vim.cmd[[colorscheme oak]]
--- vim.cmd[[colorscheme pinkmare]]
--- vim.cmd[[colorscheme aquarium]]
-vim.cmd[[colorscheme onedark]]
+vim.cmd[[colorscheme pinkmare]]
+-- vim.cmd[[colorscheme onedark]]
