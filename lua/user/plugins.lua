@@ -87,6 +87,7 @@ use 'vigoux/oak'
 use 'Matsuuu/pinkmare'
 use 'navarasu/onedark.nvim'
 use 'FrenzyExists/aquarium-vim'
+
 -- automatically set up your configuration after cloning packer.nvim
   -- put this at the end after all plugins
   if PACKER_BOOTSTRAP then
