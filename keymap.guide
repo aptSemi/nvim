@@ -46,3 +46,9 @@ EXAMPLES
 `gb2}` - Toggle until the 2 next blank line
 `gbaf` - Toggle comment around a function (w/ LSP/treesitter support)
 `gbac` - Toggle comment around a class (w/ LSP/treesitter support)
+
+--- Telescope ---
+leader+ff - find files
+leader+fg - live grep
+leader+fb - buffers
+leader+fh - help tags
