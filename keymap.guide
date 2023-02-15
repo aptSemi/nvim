@@ -52,7 +52,3 @@ leader+ff - find files
 leader+fg - live grep
 leader+fb - buffers
 leader+fh - help tags
-
-
-
-just adding this as a test
