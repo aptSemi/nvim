@@ -9,12 +9,10 @@ CTRL+t  - toggle terminal
 leader+` 
 
 --- cmp ---
-
 ctrl+j  - move down to select completion option
 ctrl+h  - move up to select completion option
 
 --- comment ---
-
 NORMAL mode
 `gcc` - Toggles the current line using linewise comment
 `gbc` - Toggles the current line using blockwise comment
