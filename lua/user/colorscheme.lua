@@ -1,6 +1,6 @@
 -- Colorschemes
--- vim.cmd[[colorscheme gruvbox]]
-vim.cmd[[colorscheme gruvbox-baby]]
+vim.cmd[[colorscheme gruvbox]]
+-- vim.cmd[[colorscheme gruvbox-baby]]
 -- vim.cmd[[colorscheme aquarium]]
 -- vim.cmd[[colorscheme melange]]
 -- vim.cmd[[colorscheme horizon]]
@@ -13,3 +13,4 @@ vim.cmd[[colorscheme gruvbox-baby]]
 -- vim.cmd[[colorscheme pinkmare]]
 -- vim.cmd[[colorscheme onedark]]
 -- vim.cmd[[colorscheme aquarium]]
+-- vim.cmd[[colorscheme zenburn]]

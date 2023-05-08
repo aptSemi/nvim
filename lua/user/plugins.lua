@@ -88,6 +88,7 @@ use 'Matsuuu/pinkmare'
 use 'navarasu/onedark.nvim'
 use 'FrenzyExists/aquarium-vim'
 use 'luisiacc/gruvbox-baby'
+use 'phha/zenburn.nvim'
 
 -- automatically set up your configuration after cloning packer.nvim
   -- put this at the end after all plugins
