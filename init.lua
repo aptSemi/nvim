@@ -1,4 +1,5 @@
--- Plugins
+﻿-- Plugins
+
 require('user.plugins')             -- /lua/user/plugins.lua
 require('user.options')             -- /lua/user/options.lua
 require('user.keymaps')             -- /lua/user/keymaps.lua
