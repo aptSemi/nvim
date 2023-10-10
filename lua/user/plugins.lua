@@ -56,9 +56,9 @@ use("nvim-treesitter/nvim-treesitter", {        -- highlights
   'VonHeikemen/lsp-zero.nvim',
   requires = {
     -- LSP Support
-    {'neovim/nvim-lspconfig'},
     {'williamboman/mason.nvim'},
     {'williamboman/mason-lspconfig.nvim'},
+    {'neovim/nvim-lspconfig'},
 
     -- Autocompletion
     {'hrsh7th/nvim-cmp'},
