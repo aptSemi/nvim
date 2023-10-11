@@ -15,5 +15,5 @@ require('user.autopairs')           -- /lua/user/autopairs.lua
 require('gitsigns').setup()         -- default config
 require('user.lsp')                 -- /lua/user/lsp_config.lua
 require("ibl").setup()              -- indentline default
-require("mason").setup()
-require("mason-lspconfig").setup()
+require("mason").setup()            -- mason lsp setup
+require("mason-lspconfig").setup()  -- mason lsp setup
