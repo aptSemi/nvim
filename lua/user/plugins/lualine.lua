@@ -6,46 +6,41 @@ return {
     local lazy_status = require("lazy.status") -- to configure lazy pending updates count
 
     local colors = {
-      blue = "#65D1FF",
-      green = "#3EFFDC",
-      violet = "#FF61EF",
-      yellow = "#FFDA7B",
-      red = "#FF4A4A",
-      fg = "#c3ccdc",
-      bg = "#112638",
-      inactive_bg = "#2c3043",
+      fg = "#eeffff",
+      bg = "#263238",
+      blue = "#82aaff",
+      green = "#c3e88d",
+      purple = "#c792ea",
+      red1 = "#f07178",
+      red2 = "#ff5370",
+      yellow = "#ffcb6b",
+      gray1 = "#314549",
+      gray2 = "#2E3C43",
+      gray3 = "#515559",
     }
 
     local my_lualine_theme = {
       normal = {
-        a = { bg = colors.blue, fg = colors.bg, gui = "bold" },
-        b = { bg = colors.bg, fg = colors.fg },
-        c = { bg = colors.bg, fg = colors.fg },
+        a = { fg = colors.bg, bg = colors.blue, gui = "bold" },
+        b = { fg = colors.fg, bg = colors.gray3 },
+        c = { fg = colors.fg, bg = colors.gray2 },
       },
       insert = {
-        a = { bg = colors.green, fg = colors.bg, gui = "bold" },
-        b = { bg = colors.bg, fg = colors.fg },
-        c = { bg = colors.bg, fg = colors.fg },
+        a = { fg = colors.bg, bg = colors.green, gui = "bold" },
+        b = { fg = colors.fg, bg = colors.gray3 },
       },
       visual = {
-        a = { bg = colors.violet, fg = colors.bg, gui = "bold" },
-        b = { bg = colors.bg, fg = colors.fg },
-        c = { bg = colors.bg, fg = colors.fg },
-      },
-      command = {
-        a = { bg = colors.yellow, fg = colors.bg, gui = "bold" },
-        b = { bg = colors.bg, fg = colors.fg },
-        c = { bg = colors.bg, fg = colors.fg },
+        a = { fg = colors.bg, bg = colors.purple, gui = "bold" },
+        b = { fg = colors.fg, bg = colors.gray3 },
       },
       replace = {
-        a = { bg = colors.red, fg = colors.bg, gui = "bold" },
-        b = { bg = colors.bg, fg = colors.fg },
-        c = { bg = colors.bg, fg = colors.fg },
+        a = { fg = colors.bg, bg = colors.red1, gui = "bold" },
+        b = { fg = colors.fg, bg = colors.gray3 },
       },
       inactive = {
-        a = { bg = colors.inactive_bg, fg = colors.semilightgray, gui = "bold" },
-        b = { bg = colors.inactive_bg, fg = colors.semilightgray },
-        c = { bg = colors.inactive_bg, fg = colors.semilightgray },
+        a = { fg = colors.fg, bg = colors.bg, gui = "bold" },
+        b = { fg = colors.fg, bg = colors.bg },
+        c = { fg = colors.fg, bg = colors.gray2 },
       },
     }
 
