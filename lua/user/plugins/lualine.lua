@@ -6,41 +6,39 @@ return {
     local lazy_status = require("lazy.status") -- to configure lazy pending updates count
 
     local colors = {
-      fg = "#eeffff",
-      bg = "#263238",
-      blue = "#82aaff",
-      green = "#c3e88d",
-      purple = "#c792ea",
-      red1 = "#f07178",
-      red2 = "#ff5370",
-      yellow = "#ffcb6b",
-      gray1 = "#314549",
-      gray2 = "#2E3C43",
-      gray3 = "#515559",
+      bg = "#282a2e",
+      alt_bg = "#373b41",
+      dark_fg = "#969896",
+      fg = "#b4b7b4",
+      light_fg = "#c5c8c6",
+      normal = "#81a2be",
+      insert = "#b5bd68",
+      visual = "#b294bb",
+      replace = "#de935f",
     }
 
     local my_lualine_theme = {
       normal = {
-        a = { fg = colors.bg, bg = colors.blue, gui = "bold" },
-        b = { fg = colors.fg, bg = colors.gray3 },
-        c = { fg = colors.fg, bg = colors.gray2 },
-      },
-      insert = {
-        a = { fg = colors.bg, bg = colors.green, gui = "bold" },
-        b = { fg = colors.fg, bg = colors.gray3 },
-      },
-      visual = {
-        a = { fg = colors.bg, bg = colors.purple, gui = "bold" },
-        b = { fg = colors.fg, bg = colors.gray3 },
+        a = { fg = colors.bg, bg = colors.normal },
+        b = { fg = colors.light_fg, bg = colors.alt_bg },
+        c = { fg = colors.fg, bg = colors.bg },
       },
       replace = {
-        a = { fg = colors.bg, bg = colors.red1, gui = "bold" },
-        b = { fg = colors.fg, bg = colors.gray3 },
+        a = { fg = colors.bg, bg = colors.replace },
+        b = { fg = colors.light_fg, bg = colors.alt_bg },
+      },
+      insert = {
+        a = { fg = colors.bg, bg = colors.insert },
+        b = { fg = colors.light_fg, bg = colors.alt_bg },
+      },
+      visual = {
+        a = { fg = colors.bg, bg = colors.visual },
+        b = { fg = colors.light_fg, bg = colors.alt_bg },
       },
       inactive = {
-        a = { fg = colors.fg, bg = colors.bg, gui = "bold" },
-        b = { fg = colors.fg, bg = colors.bg },
-        c = { fg = colors.fg, bg = colors.gray2 },
+        a = { fg = colors.dark_fg, bg = colors.bg },
+        b = { fg = colors.dark_fg, bg = colors.bg },
+        c = { fg = colors.dark_fg, bg = colors.bg },
       },
     }
 
