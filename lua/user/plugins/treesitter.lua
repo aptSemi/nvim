@@ -31,11 +31,8 @@ return {
         "python",
         "bash",
         "lua",
-        "vim",
         "dockerfile",
         "gitignore",
-        "vimdoc",
-        "c",
       },
       incremental_selection = {
         enable = true,
