@@ -1,9 +1,10 @@
--- return {
---   "sainnhe/sonokai",
---   priority = 1000,
---   config = function()
---     vim.cmd("colorscheme sonokai")
---   end,
+return {
+  "sainnhe/sonokai",
+  priority = 1000,
+  config = function()
+    vim.cmd("colorscheme sonokai")
+  end,
+}
 
 -- return {
 --   "ellisonleao/gruvbox.nvim",
@@ -29,10 +30,10 @@
 --   end,
 -- }
 
-return {
-  "sainnhe/edge",
-  priority = 1000,
-  config = function()
-    vim.cmd("colorscheme edge")
-  end,
-}
+-- return {
+--   "sainnhe/edge",
+--   priority = 1000,
+--   config = function()
+--     vim.cmd("colorscheme edge")
+--   end,
+-- }
