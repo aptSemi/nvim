@@ -1,10 +1,10 @@
-return {
-  "sainnhe/sonokai",
-  priority = 1000,
-  config = function()
-    vim.cmd("colorscheme sonokai")
-  end,
-}
+-- return {
+--   "sainnhe/sonokai",
+--   priority = 1000,
+--   config = function()
+--     vim.cmd("colorscheme sonokai")
+--   end,
+-- }
 
 -- return {
 --   "ellisonleao/gruvbox.nvim",
@@ -37,3 +37,12 @@ return {
 --     vim.cmd("colorscheme edge")
 --   end,
 -- }
+
+return {
+  "olimorris/onedarkpro.nvim",
+  priority = 1000,
+  config = function()
+    vim.cmd("colorscheme onedark")
+  end,
+}
+
