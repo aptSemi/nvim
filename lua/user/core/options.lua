@@ -14,7 +14,7 @@ o.wildmenu = true                     -- tab complete on commandline
 o.inccommand = "nosplit"              -- preview %s commands live as they're being typed
 o.belloff = "all"                     -- NO BELLS!!!
 o.errorbells = false                  -- no annoying bells!
---o.clipboard = "unnamedplus"           -- allow nvim to access system clipboard
+-- o.clipboard = "unnamedplus"           -- allow nvim to access system clipboard
 o.clipboard:append("unnamedplus")      -- allow nvim to access system clipboard
 o.backspace = "indent,eol,start"      -- allow backspace on indent, eol, insert mode start pos
 --o.undofile = true                     -- undo file?  Yes!  (for future builds; currently not in use)
